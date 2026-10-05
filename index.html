@@ -1,0 +1,2329 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="DealNest Pakistan helps you discover online deals, discounted products and trending products in Pakistan, including electronics, fashion, home, beauty and accessories.">
+
+    <meta name="keywords"
+        content="Pakistan deals, online deals Pakistan, discounted products Pakistan, electronics deals, fashion deals, home deals, shopping deals">
+
+    <meta name="author" content="DealNest Pakistan">
+
+    <meta name="robots" content="index, follow">
+
+    <meta name="googlebot" content="index, follow">
+
+    <link rel="canonical"
+        href="https://effulgent-melomakarona-554815.netlify.app/">
+
+    <meta property="og:title"
+        content="DealNest Pakistan | Smart Deals & Best Prices">
+
+    <meta property="og:description"
+        content="Discover online deals, discounted products, electronics, fashion, home products and accessories in Pakistan.">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url"
+        content="https://effulgent-melomakarona-554815.netlify.app/">
+
+    <title>DealNest Pakistan | Smart Deals & Best Prices</title>
+
+    <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="DealNest Pakistan - Discover smart deals, discounted products, electronics, fashion, home products and accessories.">
+
+    <meta name="keywords"
+        content="Pakistan deals, online deals, discounted products, electronics, fashion, shopping">
+
+    <meta name="author" content="DealNest Pakistan">
+
+    <title>DealNest Pakistan | Smart Deals & Best Prices</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background:
+                radial-gradient(circle at top right, #27314d 0%, #111827 35%, #05070c 75%);
+            color: white;
+        }
+
+        /* HEADER */
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(5, 7, 12, 0.94);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 215, 0, 0.25);
+        }
+
+        .navbar {
+            max-width: 1200px;
+            margin: auto;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: gold;
+        }
+
+        nav {
+            display: flex;
+            gap: 18px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: gold;
+        }
+
+        .cart-button {
+            background: gold;
+            color: #111;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* HERO */
+
+        .hero {
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: auto;
+            padding: 60px 25px;
+            gap: 30px;
+        }
+
+        .hero-text {
+            max-width: 650px;
+        }
+
+        .hero-text small {
+            color: gold;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            line-height: 1.05;
+            margin: 15px 0;
+        }
+
+        .hero h1 span {
+            color: gold;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .search-box {
+            margin-top: 25px;
+            display: flex;
+            max-width: 600px;
+        }
+
+        .search-box input {
+            flex: 1;
+            padding: 17px;
+            border: none;
+            outline: none;
+            border-radius: 30px 0 0 30px;
+            font-size: 16px;
+        }
+
+        .search-box button {
+            padding: 17px 25px;
+            border: none;
+            background: gold;
+            color: #111;
+            font-weight: bold;
+            border-radius: 0 30px 30px 0;
+            cursor: pointer;
+        }
+
+        /* CAR */
+
+        .car-area {
+            width: 360px;
+            height: 220px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .car {
+            width: 310px;
+            height: 85px;
+            background: linear-gradient(145deg, #dce5ef, #687589);
+            border-radius: 65px 90px 25px 25px;
+            position: relative;
+            box-shadow:
+                0 20px 50px rgba(0, 0, 0, 0.6),
+                0 0 35px rgba(255, 215, 0, 0.12);
+            transform: skewX(-4deg);
+        }
+
+        .car::before {
+            content: "";
+            position: absolute;
+            width: 125px;
+            height: 50px;
+            background: linear-gradient(135deg, #182333, #506079);
+            left: 85px;
+            top: -38px;
+            border-radius: 80px 100px 5px 5px;
+            border: 2px solid #8997a9;
+        }
+
+        .car::after {
+            content: "";
+            position: absolute;
+            width: 70px;
+            height: 20px;
+            background: #0b0f16;
+            right: -3px;
+            top: 35px;
+            border-radius: 10px;
+            box-shadow: -245px 0 0 #0b0f16;
+        }
+
+        .wheel {
+            width: 52px;
+            height: 52px;
+            background: #050505;
+            border: 8px solid #222;
+            border-radius: 50%;
+            position: absolute;
+            bottom: -30px;
+            z-index: 3;
+        }
+
+        .wheel.one {
+            left: 42px;
+        }
+
+        .wheel.two {
+            right: 42px;
+        }
+
+        .road {
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background: gold;
+            bottom: 35px;
+            opacity: 0.35;
+        }
+
+        /* GENERAL */
+
+        .section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 34px;
+            margin-bottom: 30px;
+        }
+
+        .section-title span {
+            color: gold;
+        }
+
+        /* CATEGORIES */
+
+        .categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 35px;
+        }
+
+        .category-btn {
+            background: #151b27;
+            color: white;
+            border: 1px solid #30394c;
+            padding: 10px 18px;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        .category-btn:hover,
+        .category-btn.active {
+            background: gold;
+            color: #111;
+        }
+
+        /* PRODUCTS */
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .product {
+            background: rgba(20, 27, 40, 0.9);
+            border: 1px solid rgba(255, 215, 0, 0.15);
+            border-radius: 18px;
+            overflow: hidden;
+            transition: 0.3s;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .product:hover {
+            transform: translateY(-7px);
+            border-color: rgba(255, 215, 0, 0.5);
+        }
+
+        .product img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .product-info {
+            padding: 16px;
+            text-align: left;
+        }
+
+        .product-info h3 {
+            margin: 0 0 8px;
+            font-size: 18px;
+        }
+
+        .category-label {
+            font-size: 12px;
+            color: gold;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: gold;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: #8892a5;
+            margin-left: 7px;
+            font-size: 13px;
+        }
+
+        .discount {
+            background: #143b29;
+            color: #55e6a5;
+            padding: 4px 7px;
+            border-radius: 5px;
+            font-size: 11px;
+            margin-left: 5px;
+        }
+
+        .product-buttons {
+            display: flex;
+            gap: 7px;
+            margin-top: 15px;
+        }
+
+        .product-buttons button {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .view-btn {
+            background: #263247;
+            color: white;
+        }
+
+        .add-btn {
+            background: gold;
+            color: #111;
+        }
+
+        .buy-btn {
+            width: 100%;
+            margin-top: 8px;
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            background: #25d366;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* FEATURES */
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .feature {
+            background: #111827;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 18px;
+            border: 1px solid #263247;
+        }
+
+        .feature-icon {
+            font-size: 35px;
+        }
+
+        .feature h3 {
+            color: gold;
+        }
+
+        /* ABOUT */
+
+        .about {
+            background: rgba(15, 23, 42, 0.7);
+            border-radius: 20px;
+            padding: 35px;
+            line-height: 1.8;
+            color: #d4d8e0;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #05070c;
+            padding: 35px 20px;
+            text-align: center;
+            border-top: 1px solid #252c39;
+        }
+
+        footer strong {
+            color: gold;
+        }
+
+        .manage-btn {
+            margin-top: 15px;
+            background: transparent;
+            border: 1px solid #444;
+            color: #aaa;
+            padding: 8px 14px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        /* MODALS */
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            overflow-y: auto;
+        }
+
+        .modal-content {
+            background: #111827;
+            width: 90%;
+            max-width: 600px;
+            margin: 60px auto;
+            padding: 25px;
+            border-radius: 18px;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            position: relative;
+        }
+
+        .close {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            font-size: 28px;
+            cursor: pointer;
+            color: #aaa;
+        }
+
+        .close:hover {
+            color: white;
+        }
+
+        .modal-content img {
+            width: 100%;
+            max-height: 330px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .modal-content h2 {
+            color: gold;
+        }
+
+        .modal-content p {
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+
+        /* CART */
+
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 0;
+            border-bottom: 1px solid #30394c;
+        }
+
+        .remove-btn {
+            background: #dc3545;
+            color: white;
+            border: none;
+            padding: 7px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .checkout-btn,
+        .submit-btn {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            background: gold;
+            color: #111;
+            font-weight: bold;
+            border-radius: 9px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        /* FORMS */
+
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 7px;
+            color: #ddd;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #364154;
+            background: #0b111c;
+            color: white;
+            outline: none;
+        }
+
+        .form-group textarea {
+            height: 90px;
+            resize: vertical;
+        }
+
+        /* ADMIN */
+
+        .admin-list {
+            max-height: 350px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+
+        .admin-product {
+            background: #0b111c;
+            border: 1px solid #30394c;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .delete-product {
+            background: #dc3545;
+            color: white;
+            border: none;
+            padding: 8px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .edit-product {
+            background: #2b6cff;
+            color: white;
+            border: none;
+            padding: 8px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        /* WHATSAPP */
+
+        .whatsapp {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 58px;
+            height: 58px;
+            background: #25d366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 27px;
+            text-decoration: none;
+            z-index: 1500;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        /* TOAST */
+
+        #toast {
+            position: fixed;
+            right: 20px;
+            top: 80px;
+            background: #111827;
+            color: white;
+            border: 1px solid gold;
+            padding: 13px 18px;
+            border-radius: 10px;
+            display: none;
+            z-index: 5000;
+        }
+
+        /* NO PRODUCTS */
+
+        #noProducts {
+            display: none;
+            text-align: center;
+            padding: 40px;
+            color: #aaa;
+        }
+
+        /* RESPONSIVE */
+
+        @media (max-width: 950px) {
+
+            .products {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-text {
+                max-width: 800px;
+            }
+
+            .search-box {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+
+            .car-area {
+                transform: scale(0.85);
+            }
+        }
+
+        @media (max-width: 600px) {
+
+            .navbar {
+                flex-direction: column;
+            }
+
+            nav {
+                justify-content: center;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            .products {
+                grid-template-columns: 1fr;
+            }
+
+            .search-box {
+                width: 100%;
+            }
+
+            .car-area {
+                width: 100%;
+                transform: scale(0.75);
+            }
+
+            .section {
+                padding: 40px 15px;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="navbar">
+
+            <div class="logo">
+                DealNest Pakistan
+            </div>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#deals">Deals</a>
+                <a href="#categories">Categories</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button class="cart-button" onclick="openCart()">
+                🛒 Cart:
+                <span id="cart-count">0</span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <small>🔥 SMART SHOPPING STARTS HERE</small>
+
+            <h1>
+                Smart Deals.
+                <span>Better Prices.</span>
+            </h1>
+
+            <p>
+                Discover amazing products, exciting deals and useful
+                shopping finds in one place.
+            </p>
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search products..."
+                    onkeyup="searchProducts()"
+                >
+
+                <button onclick="searchProducts()">
+                    🔎 Search
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- SMALL LUXURY CAR -->
+
+        <div class="car-area">
+
+            <div class="road"></div>
+
+            <div class="car">
+
+                <div class="wheel one"></div>
+                <div class="wheel two"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- DEALS -->
+
+    <section class="section" id="deals">
+
+        <h2 class="section-title">
+            🔥 Today's <span>Deals</span>
+        </h2>
+
+
+        <!-- CATEGORIES -->
+
+        <div class="categories" id="categories">
+
+            <button class="category-btn active"
+                onclick="filterCategory('All', this)">
+                All
+            </button>
+
+            <button class="category-btn"
+                onclick="filterCategory('Electronics', this)">
+                Electronics
+            </button>
+
+            <button class="category-btn"
+                onclick="filterCategory('Fashion', this)">
+                Fashion
+            </button>
+
+            <button class="category-btn"
+                onclick="filterCategory('Home', this)">
+                Home
+            </button>
+
+            <button class="category-btn"
+                onclick="filterCategory('Beauty', this)">
+                Beauty
+            </button>
+
+            <button class="category-btn"
+                onclick="filterCategory('Accessories', this)">
+                Accessories
+            </button>
+
+        </div>
+
+
+        <div class="products" id="productsContainer"></div>
+
+        <div id="noProducts">
+            😔 No products found.
+        </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+
+    <section class="section">
+
+        <div class="features">
+
+            <div class="feature">
+
+                <div class="feature-icon">🔥</div>
+
+                <h3>Best Deals</h3>
+
+                <p>
+                    Find interesting products and discounts.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-icon">🔎</div>
+
+                <h3>Easy Search</h3>
+
+                <p>
+                    Quickly search products by name.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-icon">📱</div>
+
+                <h3>Mobile Friendly</h3>
+
+                <p>
+                    Browse the store from your phone.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="section" id="about">
+
+        <h2 class="section-title">
+            About <span>DealNest</span>
+        </h2>
+
+        <div class="about">
+
+            <p>
+                Welcome to DealNest Pakistan — a simple place to
+                discover interesting products and online deals.
+            </p>
+
+            <p>
+                We aim to make product discovery easier by bringing
+                different categories together in one website.
+            </p>
+
+            <p>
+                Product availability, prices and offers may change.
+                Always check the final price and product information
+                on the seller's website before purchasing.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="section" id="contact">
+
+        <h2 class="section-title">
+            Contact <span>Us</span>
+        </h2>
+
+        <div class="about" style="text-align:center;">
+
+            <p>
+                Have a question about a product or deal?
+            </p>
+
+            <a
+                href="https://wa.me/923188490805"
+                target="_blank"
+                style="color:gold;font-weight:bold;"
+            >
+                💬 Contact us on WhatsApp
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 <strong>DealNest Pakistan</strong>
+        </p>
+
+        <p>
+            Smart Deals • Better Prices
+        </p>
+
+        <button
+            class="manage-btn"
+            onclick="openAdmin()"
+        >
+            ⚙️ Manage Products
+        </button>
+
+    </footer>
+
+
+    <!-- PRODUCT MODAL -->
+
+    <div class="modal" id="productModal">
+
+        <div class="modal-content">
+
+            <span class="close" onclick="closeModal('productModal')">
+                ×
+            </span>
+
+            <div id="productDetails"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CART MODAL -->
+
+    <div class="modal" id="cartModal">
+
+        <div class="modal-content">
+
+            <span class="close" onclick="closeModal('cartModal')">
+                ×
+            </span>
+
+            <h2>🛒 Your Cart</h2>
+
+            <div id="cartItems"></div>
+
+            <h3>
+                Total:
+                <span id="cartTotal">Rs. 0</span>
+            </h3>
+
+            <button
+                class="checkout-btn"
+                onclick="goToCheckout()"
+            >
+                Continue to Checkout
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- CHECKOUT MODAL -->
+
+    <div class="modal" id="checkoutModal">
+
+        <div class="modal-content">
+
+            <span class="close" onclick="closeModal('checkoutModal')">
+                ×
+            </span>
+
+            <h2>🧾 Checkout</h2>
+
+            <div class="form-group">
+
+                <label>Full Name</label>
+
+                <input
+                    type="text"
+                    id="customerName"
+                    placeholder="Enter your name"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Phone Number</label>
+
+                <input
+                    type="text"
+                    id="customerPhone"
+                    placeholder="03XXXXXXXXX"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Address</label>
+
+                <textarea
+                    id="customerAddress"
+                    placeholder="Enter your delivery address"
+                ></textarea>
+
+            </div>
+
+
+            <h3>
+                Order Total:
+                <span id="checkoutTotal">Rs. 0</span>
+            </h3>
+
+
+            <button
+                class="submit-btn"
+                onclick="placeOrder()"
+            >
+                📲 Place Order on WhatsApp
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ADMIN PRODUCT MANAGER -->
+
+    <div class="modal" id="adminModal">
+
+        <div class="modal-content">
+
+            <span class="close" onclick="closeModal('adminModal')">
+                ×
+            </span>
+
+            <h2>⚙️ Product Manager</h2>
+
+            <p>
+                Yahan se tum naye products add, edit aur delete kar sakte ho.
+            </p>
+
+
+            <div class="form-group">
+
+                <label>Product Name</label>
+
+                <input
+                    type="text"
+                    id="adminName"
+                    placeholder="Example: Wireless Earbuds"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Price</label>
+
+                <input
+                    type="number"
+                    id="adminPrice"
+                    placeholder="1499"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Old Price</label>
+
+                <input
+                    type="number"
+                    id="adminOldPrice"
+                    placeholder="2499"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Category</label>
+
+                <select id="adminCategory">
+
+                    <option value="Electronics">
+                        Electronics
+                    </option>
+
+                    <option value="Fashion">
+                        Fashion
+                    </option>
+
+                    <option value="Home">
+                        Home
+                    </option>
+
+                    <option value="Beauty">
+                        Beauty
+                    </option>
+
+                    <option value="Accessories">
+                        Accessories
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Image URL</label>
+
+                <input
+                    type="text"
+                    id="adminImage"
+                    placeholder="https://example.com/image.jpg"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Product Description</label>
+
+                <textarea
+                    id="adminDescription"
+                    placeholder="Write product details..."
+                ></textarea>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Buy / Affiliate Link</label>
+
+                <input
+                    type="text"
+                    id="adminLink"
+                    placeholder="https://example.com/product"
+                >
+
+            </div>
+
+
+            <button
+                class="submit-btn"
+                onclick="saveProduct()"
+            >
+                ➕ Add Product
+            </button>
+
+
+            <button
+                class="manage-btn"
+                style="width:100%;"
+                onclick="clearForm()"
+            >
+                Clear Form
+            </button>
+
+
+            <h3 style="margin-top:30px;">
+                Products:
+                <span id="adminProductCount">0</span>
+            </h3>
+
+
+            <div
+                class="admin-list"
+                id="adminProductList"
+            ></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- TOAST -->
+
+    <div id="toast"></div>
+
+
+    <!-- WHATSAPP -->
+
+    <a
+        class="whatsapp"
+        href="https://wa.me/923188490805"
+        target="_blank"
+        title="Contact on WhatsApp"
+    >
+        💬
+    </a>
+
+
+    <script>
+
+        /* =========================
+           DEFAULT PRODUCTS
+        ========================= */
+
+        const defaultProducts = [
+
+            {
+                id: 1,
+                name: "Wireless Bluetooth Earbuds",
+                price: 1499,
+                oldPrice: 2499,
+                category: "Electronics",
+                image: "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=800&q=80",
+                description: "Wireless earbuds with modern design and convenient everyday use.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 2,
+                name: "Smart Watch",
+                price: 2999,
+                oldPrice: 4999,
+                category: "Electronics",
+                image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+                description: "Modern smartwatch style for everyday use.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 3,
+                name: "Men's Casual Shirt",
+                price: 1799,
+                oldPrice: 2799,
+                category: "Fashion",
+                image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+                description: "Comfortable casual shirt for everyday wear.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 4,
+                name: "Women's Fashion Dress",
+                price: 2499,
+                oldPrice: 3999,
+                category: "Fashion",
+                image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80",
+                description: "Elegant fashion dress with a modern look.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 5,
+                name: "Home Decoration Lamp",
+                price: 1299,
+                oldPrice: 1999,
+                category: "Home",
+                image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+                description: "Stylish lamp for home decoration.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 6,
+                name: "Beauty Care Kit",
+                price: 1999,
+                oldPrice: 2999,
+                category: "Beauty",
+                image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80",
+                description: "Beauty care products for everyday routine.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 7,
+                name: "Premium Sunglasses",
+                price: 999,
+                oldPrice: 1799,
+                category: "Accessories",
+                image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80",
+                description: "Stylish sunglasses with a premium look.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 8,
+                name: "Portable Bluetooth Speaker",
+                price: 2199,
+                oldPrice: 3499,
+                category: "Electronics",
+                image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=80",
+                description: "Portable speaker for music and entertainment.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 9,
+                name: "Men's Sneakers",
+                price: 2799,
+                oldPrice: 4299,
+                category: "Fashion",
+                image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+                description: "Casual sneakers for everyday comfort.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 10,
+                name: "Travel Backpack",
+                price: 1899,
+                oldPrice: 2999,
+                category: "Accessories",
+                image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+                description: "Useful backpack for travel and daily use.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 11,
+                name: "Kitchen Organizer",
+                price: 899,
+                oldPrice: 1499,
+                category: "Home",
+                image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+                description: "Simple organizer for kitchen storage.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 12,
+                name: "Face Care Set",
+                price: 1499,
+                oldPrice: 2299,
+                category: "Beauty",
+                image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=800&q=80",
+                description: "Everyday face care products.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 13,
+                name: "Wireless Headphones",
+                price: 2499,
+                oldPrice: 3999,
+                category: "Electronics",
+                image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+                description: "Comfortable wireless headphones for daily entertainment.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 14,
+                name: "Men's Casual Shoes",
+                price: 2299,
+                oldPrice: 3499,
+                category: "Fashion",
+                image: "https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3?auto=format&fit=crop&w=800&q=80",
+                description: "Casual shoes with a clean modern design.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 15,
+                name: "LED Desk Lamp",
+                price: 1199,
+                oldPrice: 1799,
+                category: "Home",
+                image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+                description: "Compact desk lamp for study and work.",
+                link: "https://www.daraz.pk/"
+            },
+
+            {
+                id: 16,
+                name: "Ladies Handbag",
+                price: 1999,
+                oldPrice: 3299,
+                category: "Accessories",
+                image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+                description: "Elegant handbag for everyday fashion.",
+                link: "https://www.daraz.pk/"
+            }
+
+        ];
+
+
+        /* =========================
+           LOAD PRODUCTS
+        ========================= */
+
+        let savedProducts =
+            JSON.parse(localStorage.getItem("dealnest_products"));
+
+        let products =
+            savedProducts && Array.isArray(savedProducts)
+                ? savedProducts
+                : defaultProducts;
+
+
+        let cart = [];
+
+        let editingProductId = null;
+
+
+        /* =========================
+           DISPLAY PRODUCTS
+        ========================= */
+
+        function displayProducts(list) {
+
+            const container =
+                document.getElementById("productsContainer");
+
+            const noProducts =
+                document.getElementById("noProducts");
+
+            container.innerHTML = "";
+
+            if (list.length === 0) {
+
+                noProducts.style.display = "block";
+
+                return;
+            }
+
+            noProducts.style.display = "none";
+
+
+            list.forEach(product => {
+
+                let discount = 0;
+
+                if (product.oldPrice > product.price) {
+
+                    discount =
+                        Math.round(
+                            ((product.oldPrice - product.price)
+                                / product.oldPrice) * 100
+                        );
+
+                }
+
+
+                container.innerHTML += `
+
+                    <div class="product">
+
+                        <img
+                            src="${product.image}"
+                            alt="${product.name}"
+                            onerror="this.src='https://via.placeholder.com/800x600?text=Product+Image'"
+                        >
+
+                        <div class="product-info">
+
+                            <div class="category-label">
+                                ${product.category}
+                            </div>
+
+                            <h3>
+                                ${product.name}
+                            </h3>
+
+                            <div>
+
+                                <span class="price">
+                                    Rs. ${product.price.toLocaleString()}
+                                </span>
+
+                                <span class="old-price">
+                                    Rs. ${product.oldPrice.toLocaleString()}
+                                </span>
+
+                                ${
+                                    discount > 0
+                                    ? `<span class="discount">${discount}% OFF</span>`
+                                    : ""
+                                }
+
+                            </div>
+
+                            <div class="product-buttons">
+
+                                <button
+                                    class="view-btn"
+                                    onclick="openProduct(${product.id})"
+                                >
+                                    View
+                                </button>
+
+                                <button
+                                    class="add-btn"
+                                    onclick="addToCart(${product.id})"
+                                >
+                                    🛒 Add
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="buy-btn"
+                                onclick="buyProduct(${product.id})"
+                            >
+                                🔗 Buy Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                `;
+
+            });
+
+        }
+
+
+        /* =========================
+           PRODUCT DETAILS
+        ========================= */
+
+        function openProduct(id) {
+
+            const product =
+                products.find(p => p.id === id);
+
+            if (!product) return;
+
+
+            document.getElementById("productDetails").innerHTML = `
+
+                <img
+                    src="${product.image}"
+                    alt="${product.name}"
+                >
+
+                <div class="category-label">
+                    ${product.category}
+                </div>
+
+                <h2>
+                    ${product.name}
+                </h2>
+
+                <h3 style="color:gold;">
+                    Rs. ${product.price.toLocaleString()}
+                </h3>
+
+                <p>
+                    ${product.description}
+                </p>
+
+                <button
+                    class="add-btn"
+                    style="width:100%;padding:14px;border:none;border-radius:9px;font-weight:bold;cursor:pointer;"
+                    onclick="addToCart(${product.id}); closeModal('productModal');"
+                >
+                    🛒 Add to Cart
+                </button>
+
+                <button
+                    class="buy-btn"
+                    onclick="buyProduct(${product.id})"
+                >
+                    🔗 Buy Now
+                </button>
+
+            `;
+
+
+            document.getElementById("productModal").style.display =
+                "block";
+
+        }
+
+
+        /* =========================
+           BUY PRODUCT
+        ========================= */
+
+        function buyProduct(id) {
+
+            const product =
+                products.find(p => p.id === id);
+
+            if (!product) return;
+
+
+            if (!product.link) {
+
+                showToast("Product link available nahi hai.");
+
+                return;
+            }
+
+
+            window.open(
+                product.link,
+                "_blank"
+            );
+
+        }
+
+
+        /* =========================
+           CART
+        ========================= */
+
+        function addToCart(id) {
+
+            const product =
+                products.find(p => p.id === id);
+
+            if (!product) return;
+
+
+            cart.push(product);
+
+            updateCart();
+
+            showToast("Product cart mein add ho gaya!");
+
+        }
+
+
+        function updateCart() {
+
+            document.getElementById("cart-count").textContent =
+                cart.length;
+
+
+            const cartItems =
+                document.getElementById("cartItems");
+
+            const cartTotal =
+                document.getElementById("cartTotal");
+
+
+            cartItems.innerHTML = "";
+
+
+            let total = 0;
+
+
+            if (cart.length === 0) {
+
+                cartItems.innerHTML =
+                    "<p>Your cart is empty.</p>";
+
+            }
+
+
+            cart.forEach((item, index) => {
+
+                total += Number(item.price);
+
+
+                cartItems.innerHTML += `
+
+                    <div class="cart-item">
+
+                        <div>
+
+                            <strong>
+                                ${item.name}
+                            </strong>
+
+                            <br>
+
+                            <span style="color:gold;">
+                                Rs. ${item.price.toLocaleString()}
+                            </span>
+
+                        </div>
+
+                        <button
+                            class="remove-btn"
+                            onclick="removeFromCart(${index})"
+                        >
+                            Remove
+                        </button>
+
+                    </div>
+
+                `;
+
+            });
+
+
+            cartTotal.textContent =
+                "Rs. " + total.toLocaleString();
+
+
+            document.getElementById("checkoutTotal").textContent =
+                "Rs. " + total.toLocaleString();
+
+        }
+
+
+        function removeFromCart(index) {
+
+            cart.splice(index, 1);
+
+            updateCart();
+
+        }
+
+
+        function openCart() {
+
+            updateCart();
+
+            document.getElementById("cartModal").style.display =
+                "block";
+
+        }
+
+
+        function goToCheckout() {
+
+            if (cart.length === 0) {
+
+                showToast("Pehle cart mein product add karo.");
+
+                return;
+            }
+
+
+            closeModal("cartModal");
+
+            updateCart();
+
+            document.getElementById("checkoutModal").style.display =
+                "block";
+
+        }
+
+
+        /* =========================
+           CHECKOUT
+        ========================= */
+
+        function placeOrder() {
+
+            const name =
+                document.getElementById("customerName").value.trim();
+
+            const phone =
+                document.getElementById("customerPhone").value.trim();
+
+            const address =
+                document.getElementById("customerAddress").value.trim();
+
+
+            if (!name || !phone || !address) {
+
+                showToast("Please complete checkout form.");
+
+                return;
+            }
+
+
+            let total = 0;
+
+            let message =
+                "Hello DealNest Pakistan!%0A%0A";
+
+            message +=
+                "New Order%0A";
+
+            message +=
+                "Name: " + encodeURIComponent(name) + "%0A";
+
+            message +=
+                "Phone: " + encodeURIComponent(phone) + "%0A";
+
+            message +=
+                "Address: " + encodeURIComponent(address) + "%0A%0A";
+
+            message +=
+                "Products:%0A";
+
+
+            cart.forEach(item => {
+
+                total += Number(item.price);
+
+                message +=
+                    "- " +
+                    encodeURIComponent(item.name) +
+                    " - Rs. " +
+                    item.price +
+                    "%0A";
+
+            });
+
+
+            message +=
+                "%0ATotal: Rs. " +
+                total;
+
+
+            const whatsappNumber =
+                "923188490805";
+
+
+            window.open(
+                "https://wa.me/" +
+                whatsappNumber +
+                "?text=" +
+                message,
+                "_blank"
+            );
+
+
+            cart = [];
+
+            updateCart();
+
+            closeModal("checkoutModal");
+
+            showToast("Order WhatsApp par open ho raha hai.");
+
+        }
+
+
+        /* =========================
+           SEARCH
+        ========================= */
+
+        function searchProducts() {
+
+            const search =
+                document.getElementById("searchInput")
+                    .value
+                    .toLowerCase()
+                    .trim();
+
+
+            const filtered =
+                products.filter(product =>
+
+                    product.name.toLowerCase().includes(search) ||
+
+                    product.category.toLowerCase().includes(search)
+
+                );
+
+
+            displayProducts(filtered);
+
+        }
+
+
+        /* =========================
+           CATEGORY FILTER
+        ========================= */
+
+        function filterCategory(category, button) {
+
+            document
+                .querySelectorAll(".category-btn")
+                .forEach(btn =>
+                    btn.classList.remove("active")
+                );
+
+
+            button.classList.add("active");
+
+
+            if (category === "All") {
+
+                displayProducts(products);
+
+                return;
+            }
+
+
+            const filtered =
+                products.filter(
+                    product =>
+                        product.category === category
+                );
+
+
+            displayProducts(filtered);
+
+        }
+
+
+        /* =========================
+           ADMIN PANEL
+        ========================= */
+
+        function openAdmin() {
+
+            document.getElementById("adminModal").style.display =
+                "block";
+
+            renderAdminProducts();
+
+        }
+
+
+        function saveProduct() {
+
+            const name =
+                document.getElementById("adminName").value.trim();
+
+            const price =
+                Number(document.getElementById("adminPrice").value);
+
+            const oldPrice =
+                Number(document.getElementById("adminOldPrice").value);
+
+            const category =
+                document.getElementById("adminCategory").value;
+
+            const image =
+                document.getElementById("adminImage").value.trim();
+
+            const description =
+                document.getElementById("adminDescription").value.trim();
+
+            const link =
+                document.getElementById("adminLink").value.trim();
+
+
+            if (
+                !name ||
+                !price ||
+                !oldPrice ||
+                !image ||
+                !description ||
+                !link
+            ) {
+
+                showToast("Product ki sari details fill karo.");
+
+                return;
+            }
+
+
+            if (editingProductId !== null) {
+
+                const index =
+                    products.findIndex(
+                        p => p.id === editingProductId
+                    );
+
+
+                if (index !== -1) {
+
+                    products[index] = {
+
+                        id: editingProductId,
+                        name,
+                        price,
+                        oldPrice,
+                        category,
+                        image,
+                        description,
+                        link
+
+                    };
+
+                }
+
+
+                editingProductId = null;
+
+                showToast("Product update ho gaya!");
+
+            } else {
+
+                const newProduct = {
+
+                    id:
+                        Date.now(),
+
+                    name,
+                    price,
+                    oldPrice,
+                    category,
+                    image,
+                    description,
+                    link
+
+                };
+
+
+                products.push(newProduct);
+
+                showToast("New product add ho gaya!");
+
+            }
+
+
+            saveProducts();
+
+            clearForm();
+
+            displayProducts(products);
+
+            renderAdminProducts();
+
+        }
+
+
+        function saveProducts() {
+
+            localStorage.setItem(
+                "dealnest_products",
+                JSON.stringify(products)
+            );
+
+        }
+
+
+        function renderAdminProducts() {
+
+            const list =
+                document.getElementById("adminProductList");
+
+            const count =
+                document.getElementById("adminProductCount");
+
+
+            count.textContent =
+                products.length;
+
+
+            list.innerHTML = "";
+
+
+            products.forEach(product => {
+
+                list.innerHTML += `
+
+                    <div class="admin-product">
+
+                        <div>
+
+                            <strong>
+                                ${product.name}
+                            </strong>
+
+                            <br>
+
+                            <small style="color:gold;">
+                                ${product.category}
+                            </small>
+
+                            <br>
+
+                            <small>
+                                Rs. ${product.price.toLocaleString()}
+                            </small>
+
+                        </div>
+
+
+                        <div style="display:flex;gap:5px;">
+
+                            <button
+                                class="edit-product"
+                                onclick="editProduct(${product.id})"
+                            >
+                                Edit
+                            </button>
+
+                            <button
+                                class="delete-product"
+                                onclick="deleteProduct(${product.id})"
+                            >
+                                Delete
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                `;
+
+            });
+
+        }
+
+
+        function editProduct(id) {
+
+            const product =
+                products.find(p => p.id === id);
+
+            if (!product) return;
+
+
+            editingProductId = id;
+
+
+            document.getElementById("adminName").value =
+                product.name;
+
+            document.getElementById("adminPrice").value =
+                product.price;
+
+            document.getElementById("adminOldPrice").value =
+                product.oldPrice;
+
+            document.getElementById("adminCategory").value =
+                product.category;
+
+            document.getElementById("adminImage").value =
+                product.image;
+
+            document.getElementById("adminDescription").value =
+                product.description;
+
+            document.getElementById("adminLink").value =
+                product.link;
+
+
+            showToast("Ab Save Product dabao.");
+
+        }
+
+
+        function deleteProduct(id) {
+
+            const confirmDelete =
+                confirm("Kya tum is product ko delete karna chahte ho?");
+
+
+            if (!confirmDelete) return;
+
+
+            products =
+                products.filter(
+                    product => product.id !== id
+                );
+
+
+            saveProducts();
+
+            displayProducts(products);
+
+            renderAdminProducts();
+
+            showToast("Product delete ho gaya.");
+
+        }
+
+
+        function clearForm() {
+
+            document.getElementById("adminName").value = "";
+
+            document.getElementById("adminPrice").value = "";
+
+            document.getElementById("adminOldPrice").value = "";
+
+            document.getElementById("adminImage").value = "";
+
+            document.getElementById("adminDescription").value = "";
+
+            document.getElementById("adminLink").value = "";
+
+            editingProductId = null;
+
+        }
+
+
+        /* =========================
+           MODAL
+        ========================= */
+
+        function closeModal(id) {
+
+            document.getElementById(id).style.display =
+                "none";
+
+        }
+
+
+        window.onclick = function(event) {
+
+            if (
+                event.target.classList.contains("modal")
+            ) {
+
+                event.target.style.display =
+                    "none";
+
+            }
+
+        };
+
+
+        /* =========================
+           TOAST
+        ========================= */
+
+        function showToast(message) {
+
+            const toast =
+                document.getElementById("toast");
+
+
+            toast.textContent =
+                message;
+
+
+            toast.style.display =
+                "block";
+
+
+            setTimeout(() => {
+
+                toast.style.display =
+                    "none";
+
+            }, 2500);
+
+        }
+
+
+        /* =========================
+           START WEBSITE
+        ========================= */
+
+        displayProducts(products);
+
+        updateCart();
+
+    </script>
+
+</body>
+
+</html>
